@@ -1,0 +1,129 @@
+/*
+* Nicole Oronzio
+* January 11, 2017
+* Final Project
+*/
+
+
+* { /* I had to put this in the universal code so my whole webpage would be centered on the page */
+margin: 0;
+padding: 0;
+}
+
+header { 
+border-bottom: 2px solid black; 
+}
+
+body {
+    width: 95%;
+    background-color: #B2DFFC;
+    margin: 15px auto;
+    border: 2px solid black; }
+
+#sidebarA {
+    width: 24%;
+    height: 1000px;     
+    float: left;
+    border-right: 2px solid black; 
+}
+
+
+main {
+    width: 50%; 
+    float: left; 
+    padding: 7px}
+
+#sidebarB {
+    width: 24%;
+    height: 1000px;     
+    float: right;
+    border-left: 2px solid black; }
+
+footer { 
+	margin: 2px;
+    clear: both;
+    border-top: 2px solid black; }
+    
+h1 {
+text-align: center; 
+font-size: 200%;
+color: black;
+}
+
+h2 {
+text-align: center;
+font-size: 150%;
+color: black;
+}
+
+h3 {
+text-align: center;
+font-size: 175%;
+color: black;
+}
+
+h4 { /* I had to do different h classes so every single one was not the same. If they were, the webpage would look weird and unorganized */
+margin: 4px;
+text-align: left;
+font-size: 150%;
+color: black;
+} 
+
+h5 { 
+text-align: center;
+font-size: 100%;
+color: purple;
+text-decoration: underline;
+padding: 2px;
+} 
+
+p {
+text-align: center;
+font-size: 95%;
+color: black;
+padding: 10px;
+}
+
+.p2 { /* I had to do different p classes so the words in each bar could appear differently */
+margin: 1px;
+text-align: left;
+font-size: 95%;
+color: black;
+} 
+
+.p3 { 
+margin: 4px;
+text-align: left;
+font-size: 70%;
+color: black;
+}
+
+.firstimg {
+	float: left;
+	width: 200px; 
+	height:200px;   
+	border: 1px dashed black;
+	padding: 2px;
+	margin:0em 1em .5em 1em;
+}
+
+.secondimg { /* I had to put a . before each name (firstimg, secondimg, thirdimg) so it would pick up on what I was trying to do in the css */
+	width: 292px; 
+	height: 200px;   
+	border: 1px dashed black;
+	padding: 1px;
+	margin:0em 1em 0em 1em;
+} 
+
+.thirdimg { /* I had to do three different img classes so each image could have their own dimensions */
+		width: 292px; 
+		height: 200px;   
+		border: 1px dashed black;
+		padding: 1px;
+		margin:0em 1em 0em 1em; 
+}
+
+
+
+
+
